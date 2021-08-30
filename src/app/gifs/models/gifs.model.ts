@@ -4,7 +4,7 @@ export interface SearchGifsResponse {
   pagination: Pagination;
   meta:       Meta;
 }
-
+//gif object reference
 export interface Gif {
   type:                       Type;
   id:                         string;
