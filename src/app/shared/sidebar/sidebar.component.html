@@ -8,7 +8,10 @@
         <a href="#" class="list-group-item list-group-item-action">
             Dashboard
         </a>
-        <a *ngFor="let item of history" href="#" class="list-group-item list-group-item-action">
+        <a *ngFor="let item of history"
+        (click)="search(item)" 
+        href="#"
+         class="list-group-item list-group-item-action">
             {{item | titlecase}}
         </a>
 
